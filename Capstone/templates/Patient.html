@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Electrocast: Patient</title>
+	<style>
+		body {
+			background-color: #d8e3e7;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+		}
+			h1 {
+		text-align: center;
+		color: #555555;
+		margin-top: 50px;
+	}
+
+	p {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		line-height: 1.5;
+		color: #333333;
+		text-align: justify;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.container {
+		max-width: 800px;
+		margin: auto;
+	}
+	label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+button[type="submit"], button[type="button"] {
+  background-color: #1e88e5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+button[type="submit"]:hover, button[type="button"]:hover {
+  background-color: #1565c0;
+  transition: all 0.3s ease;
+}
+
+button[type="button"] {
+  margin-left: 10px;
+}
+
+    .btn{
+        font-size: large;
+        color: blue;
+    }
+
+	button[type="new-user"] {
+      background-color: #4CAF50;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+      }
+
+    button[type="new-user"]:hover {
+   background-color: #3e8e41;
+      }
+
+.new-user {
+        background-color: #4CAF50;
+        margin-top: 10px;
+      }
+      
+      .new-user:hover {
+        background-color: #3e8e41;
+      }
+
+
+</style>
+
+</head>
+<body>
+	<div class="container">
+		<h1>Our Mission with Electrocast</h1>
+		<p>Through our project we aim to solve the issue of prolonged recovery times and muscle loss that athletes and injured people face. As athletes strain their muscles in their daily life, they are generally prone to succumb to injury. To ensure that this injury does not compromise their careers or lives, it is important that they do not lose muscle during recovery. Our project is designed to continuously stimulate muscles so that there are lower levels of muscle loss and less time required to recover after the injury is taken care of. The primary injury recovery being targeted is that of bone loss, as a caste is used for those types of injuries.</p>
+			<h1>Real World-Problem</h1>
+	<p>The problem we are trying to solve is that people who use the caste for long periods of time do not recover the muscle properly and often face the inability to use their muscle to the full level they could before. This phenomenon is known as muscular atrophy, because there is low stimulation of the muscle as it is not being moved through electrical signals from the brain.</p>
+</div>
+
+       <a href="{{ url_for('logout') }}"><button type="button" class="new-user">Logout</button></a>
+
+</body>
+</html>
